@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="date-fns" type="javaScript">
+    <CLASSES />
+    <DOCUMENTATION>
+      <root url="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.7.0/date_fns.min.js" />
+    </DOCUMENTATION>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

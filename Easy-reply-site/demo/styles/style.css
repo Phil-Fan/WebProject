@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    /*font-weight: bold;*/
+    letter-spacing: 2px;
+    line-height: 180%;
+}
+/*进一步UI优化思路，优化字体，排版，字间距以及图片*/
+/*制作不同的主题样式*/
+.main {
+    width: 100%;
+    min-height: 2000px;
+    background: #1A507E;
+    overflow: auto hidden;/*可以实现动态长度的div*/
+}
+
+.header {
+    width: 100%;/*利用百分长度控制比例*/
+    height: 75px;
+    background-color: #DB5A6C;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 1850px;
+    background-color: #1A507E;
+    margin-top: 5%;
+    overflow: auto hidden;
+}
+
+.footer {
+    width: 100%;
+    background-color: #DB5A6C;
+    height: 75px;
+}
+
+
+/*图片*/
+.header > div > img {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.detail-icon > img, .detail-icon > a > img {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+/*文字*/
+h1,h2,h3,h4,h5,h6, span,p{
+    color: #fffffe;
+}
+
+
+.topic-header {
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+}
+
+.topic-area {
+    width: 85%;
+    min-height: 1400px;
+    margin-left: 10%;
+
+}
+
+.topic-list {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+.user-info {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.user-post {
+    width: 80%;
+    height: 100%;
+    float: right;/*设置左右同一行的div*/
+}
+
+.topic {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    Border-radius: 15px;/*圆角矩形*/
+    background-color: #DB5A6C;
+}
+
+.reply-topic {
+    width: 100%;
+    height: 185px;
+    margin-top: 40px;
+    Border-radius: 15px;
+    opacity: 0.9;/*透明度*/
+    border: 3px dashed #FFFFFe;
+}
+
+.topic-info {
+    width: 93%;
+    height: 100%;
+    float: left;
+}
+
+.topic-detail {
+    width: 7%;
+    height: 100%;
+    float: right;
+    margin: auto;
+}
+
+.user-head {
+    height: 70%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.user-time {
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.user-time-text {
+    margin: auto;
+}
+
+.user-head > img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.user-post-title {
+    height: 25%;
+    width: 100%;
+}
+
+.user-post-title-text {
+    height: 80%;
+    margin-left: 3%;
+    padding: 10px;
+    width: 100%;
+}
+
+.user-post-text {
+    height: 75%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.quiry{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.controls textarea {
+    width: 99%;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.controls > div {
+    float: right;
+}
+
+.button {
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: #DB5A6C;
+    color: #FFFFFe;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFe;
+}
+
+/*修改删除按键*/
+#close, #modify {
+    height: 25px;
+    width: 60px;
+    background-color: #DB5A6C;
+    border-radius: 10px;
+    border: 2px solid #FFFFFe;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: right;
+    opacity: 0.7;
+    color: #FFFFFe;
+}
+
+/*发帖时间*/
+#timeview {
+    width: 60px;
+    height: 25px;
+    color: #FFFFFe;
+    margin-left: 18%;
+    font-size: 12px;
+    font-weight: lighter;
+}
+#rmCache{
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: #DB5A6C;
+    margin-top: 10px;
+    border-radius: 5px;
+}

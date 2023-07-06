@@ -1,0 +1,122 @@
+<!--回帖页面-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/icon.svg" sizes="16×16">
+    <title>主贴回复 - 光·痕·影</title>
+
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div>
+            <img src="images/icon.svg" alt="图标">
+        </div>
+    </div>
+    <div class="container">
+        <div class="topic-area">
+            <div class="topic-list">
+                <div class="topic" id="1">
+                    <div class="topic-info">
+                        <div class="user-info">
+                            <div class="user-head">
+                                <img src="images/head/head-ArisrX.jfif" alt="用户ArisrX头像">
+                            </div>
+                            <div class="user-time">
+                                <div class="user-time-text">
+                                    <span class="name">ArisrX</span>
+<!--                                    <span class="time">2007.1.1</span>-->
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="user-post">
+                            <div class="user-post-title">
+                                <div class="user-post-title-text">
+                                    <p>春天到了！放一首自己写的春天的诗吧！</p>
+                                </div>
+
+                            </div>
+                            <div class="user-post-text">
+                                <p>湖水清澈见底影，<br>
+                                    春风拂面闻花香。<br>
+                                    溪畔红梅绽芳华，<br>
+                                    诗意盎然心荡漾。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topic-detail">
+                        <div class="detail-icon">
+                            <img src="images/like.png" alt="like">
+                        </div>
+                        <div class="detail-icon">
+                            <img src="images/reply.png" alt="reply">
+                        </div>
+                        <div class="detail-icon">
+                            <img src="images/star.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <button id="rmCache">x</button>
+                <div class="quiry">
+                    <div class="controls">
+                        <textarea id = "replytitle" placeholder="输入想发表的回帖标题..." ></textarea>
+                        <textarea id = "replytext"  placeholder="我想说..." ></textarea>
+                        <div>
+                            <span class="useCount">0</span>
+                            <span>/</span>
+                            <span>200</span>
+                            <button class="button" id="send">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reply-list">
+<!--                    对回复区域进行限定，这样更方便于css进行样式设计-->
+                    <div class="reply-topic" id="01">
+                        <div class="topic-info">
+                            <div class="user-info">
+                                <div class="user-head">
+                                    <img src="images/head/head-ArisrX.jfif" alt="用户ArisrX头像">
+                                </div>
+                                <div class="user-time">
+                                    <div class="user-time-text">
+                                        <p class="name">ArisrX</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="user-post">
+                                <div class="user-post-title">
+                                    <div class="user-post-title-text" id = 'content'>
+                                        <p>摘抄</p>
+                                    </div>
+                                </div>
+                                <div class="user-post-text">
+                                    <p>雨是最寻常的，一下就是三两天。可别恼。看，像牛毛，像花针，像细丝，密密地斜织着，人家屋顶上全笼着一层薄烟。树叶儿却绿得发亮，小草儿也青得逼你的眼。傍晚时候，上灯了，一点点黄晕的光，烘托出一片安静而和平的夜。</p>
+                                </div>
+<!--                                <button id="close">Delete</button>-->
+<!--                                <button id="modify">Modify</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <h1>
+                Author:PhilFan
+            </h1>
+        </div>
+    </div>
+</div>
+<!--<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.8.1/date_fns.min.js" integrity="sha512-ToehgZGJmTS39fU8sfP9/f0h2Zo6OeXXKgpdEgzqUtPfE5By1K/ZkD8Jtp5PlfdaWfGVx+Jw5j10h63wSwM1HA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+<script type="module" src="scripts/main.js" defer></script>
+</body>
+</html>
